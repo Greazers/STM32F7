@@ -1,0 +1,23 @@
+Working Project:
+	-- LCD_DSI_CmdMode_PartialRefresh >> MDK-ARM
+ 		--- MDK-ARM >> STM32F769I_DISCOVERY contains binary
+		--- Check keil project compiled with compiler version 6
+		--- Flashed binary using STM32CubeProgrammer
+			---- Connect board using ST-Link
+			---- Go to Erasing & Programming , then select hex binary path "F:\Cortex m7\tools\en.stm32cubef7-v1-17-2\STM32Cube_FW_F7_V1.17.0\Projects\STM32F769I-Discovery\Examples\LCD_DSI\LCD_DSI_CmdMode_PartialRefresh\MDK-ARM\STM32F769I_DISCOVERY\STM32F769I_DISCOVERY.hex" and press "Start Programming".
+			---- Now reset the Board.
+		--- This applaication is flased in internal RAM.
+		--- UsedKeywords: Graphic Display, LCD, DSI, MIPI Alliance, Command mode, Partial refresh, LTDC, QVGA, ARGB8888, layer 0
+		--- Directory contents
+  			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Inc/stm32f7xx_hal_conf.h       HAL configuration file
+ 			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Inc/stm32f7xx_it.h             Interrupt handlers header file
+  			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Inc/main.h                     Header for main.c module
+  			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Inc/life_augmented_argb8888.h  Image 300x220 in ARGB8888 to display on LCD in area 1
+  			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Inc/image_320x240_argb8888.h   Image 300x200 in ARGB8888 to display on LCD in area 2
+  			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Src/stm32f7xx_it.c             Interrupt handlers
+  			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Src/main.c                     Main program
+  			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Src/stm32f7xx_hal_msp.c        HAL MSP file
+  			---- LCD_DSI/LCD_DSI_CmdMode_PartialRefresh/Src/system_stm32f7xx.c         STM32F7xx system source file
+
+
+	-- 
